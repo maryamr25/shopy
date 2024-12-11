@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light-mode {
+    /* background-image: linear-gradient(white, rgb(227, 193, 129)) ;
+    background-repeat: no-repeat; */
+    background-color: white;
+  
+    
+  }
+  
+  .dark-mode {
+    background-color: #000;
+    color: white;
+    
+  }
+  .hero {
+    background-image: url('/orange-pattern.jpg');
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+   
+   
+  }
